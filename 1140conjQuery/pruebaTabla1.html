@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="css/1140.css" rel="stylesheet" />
+    <link href="css/vader/jquery-ui-1.9.1.custom.min.css" rel="stylesheet" />
+    <script src="js/jquery-1.8.2.js"></script>
+    <script src="js/jquery-ui-1.9.1.custom.min.js"></script>
+    <script src="js/script1.js"></script>
+</head>
+<body>
+    <div class ="container">
+        <div class="row">
+
+            <div class="threecol">
+                <input id="Button1" type="button" value="deshabilita" onclick="deshabilita(1);" />
+                <input id="Button2" type="button" value="añade tab" onclick="ponTab();" />
+                <input id="Button3" type="button" value="borra tab" onclick="quitaTab();" />
+            </div>
+            
+            <div class="fourcol">
+                <div id="ejemploTabs">
+                    <ul>
+                        <li> <a href="#fragmento1"> UNO </a> </li>
+                        <li> <a href="#fragmento2"> DOS </a> </li>
+                        <li> <a href="#fragmento3"> TRES </a> </li>
+                    </ul>
+                    <div id="fragmento1">este es el tab 0</div>
+                    <div id="fragmento2">este es el tab 1</div>
+                    <div id="fragmento3">este es el tab 2</div>
+                </div>
+            </div>
+
+            <div class="fivecol last">
+                <div id="acordeon">
+                    <h2>
+                        <a href="#">titulo 1</a>
+                    </h2>
+                    <div>texto del primer parrafo</div>
+                    <h2>
+                        <a href="#">titulo 2</a>
+                    </h2>
+                    <div>texto del segundo parrafo</div>
+                    <h2>
+                        <a href="#">titulo 3</a>
+                    </h2>
+                    <div>texto del tercer parrafo</div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+
+            <div class="fourcol">
+                <input id="Button4" type="button" value="MUESTRA DIALOGO" onclick="muestraDialogo();" />
+                <div id="miDialogo" title="Esto es el título!">
+                    aqui va el cuerpo del mensaje
+                </div>
+            </div>
+
+            <div class="threecol">
+
+                <div id="rojo"></div><br />
+                <div id="verde"></div><br />
+                <div id="azul"></div><br />
+
+                <p>valor del slider: <span id="deslizador"></span></p>
+               <div id="cajaColor">
+                    aasdassssssssssssssads
+                   <br />
+                   ajdklaskjda
+                   <br />
+                   asfas
+                   <br />
+                   asddddddddddddddddddddddddddaw
+                </div>
+            </div>
+
+            <div class="fivecol last">
+                <label for="fecha"> Introduce una fecha</label>
+                <input id="fecha" type="text" />
+                
+            </div>
+
+        </div>
+        <div class="row">
+
+            <div class="fourcol">
+                <label for="autocompletador"> Selecciona un lenguaje </label>
+                <input id="autocompletador"/>
+                <br />
+                <label for="autocompletador2"> Busca la letra inicial </label>
+                <input id="autocompletador2"/>
+            </div>
+            
+
+            <div class="threecol">
+                <div id="progreso">
+
+                </div>
+            </div>
+
+            <div class="fivecol last">
+                <div id="radio"> 
+                    <input type="radio" id="radio1" name="radio"><label for="radio1">Opción 1</label> 
+                    <input type="radio" id="radio2" name="radio" checked="checked"><label for="radio2">Opción 2</label>
+                    <input type="radio" id="radio3" name="radio"><label for="radio3">Opción 3</label>
+                </div>
+            </div>
+
+        </div> 
+        
+    </div> <!-- div del container -->
+
+</body>
+</html>
